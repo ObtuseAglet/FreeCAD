@@ -18,6 +18,10 @@ if(BUILD_CLOUD)
     add_subdirectory(Cloud)
 endif(BUILD_CLOUD)
 
+if(BUILD_CODEX)
+    add_subdirectory(Codex)
+endif(BUILD_CODEX)
+
 if(BUILD_DRAFT)
   add_subdirectory(Draft)
 endif(BUILD_DRAFT)

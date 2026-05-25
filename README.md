@@ -59,6 +59,9 @@ Compiling
 See the [Developers Handbook – Getting Started](https://freecad.github.io/DevelopersHandbook/gettingstarted/)
 for build instructions.
 
+This fork also includes a `Codex` workbench module. See
+[`docs/CODEX_WORKBENCH.md`](docs/CODEX_WORKBENCH.md) for setup and usage.
+
 
 Reporting Issues
 ---------
