@@ -244,7 +244,7 @@ void GeneralSettingsWidget::retranslateUi()
     );
     auto navStyleName = hGrpNav->GetASCII(
         "NavigationStyle",
-        std::string {Gui::CADNavigationStyle::getClassTypeId().getName()}.c_str()
+        std::string {Gui::BlenderNavigationStyle::getClassTypeId().getName()}.c_str()
     );
     std::map<Base::Type, std::string> styles = Gui::UserNavigationStyle::getUserFriendlyNames();
     for (const auto& style : styles) {

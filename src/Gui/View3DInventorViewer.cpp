@@ -877,7 +877,7 @@ Document* View3DInventorViewer::getDocument()
 
 void View3DInventorViewer::initialize()
 {
-    navigation = new CADNavigationStyle();
+    navigation = new BlenderNavigationStyle();
     navigation->setViewer(this);
 
     this->axiscrossEnabled = true;

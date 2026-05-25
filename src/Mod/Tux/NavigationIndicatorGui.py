@@ -906,7 +906,7 @@ def setCurrent():
                 pass
     else:
         s = True
-        pView.SetString("NavigationStyle", a2.data())
+        pView.SetString("NavigationStyle", a1.data())
 
     if s:
         a0.setVisible(False)

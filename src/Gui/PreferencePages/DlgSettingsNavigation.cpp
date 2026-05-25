@@ -166,7 +166,7 @@ void DlgSettingsNavigation::loadSettings()
     );
     std::string model = hGrp->GetASCII(
         "NavigationStyle",
-        std::string {CADNavigationStyle::getClassTypeId().getName()}.c_str()
+        std::string {BlenderNavigationStyle::getClassTypeId().getName()}.c_str()
     );
     int index = ui->comboNavigationStyle->findData(QByteArray(model.c_str()));
     if (index > -1) {
